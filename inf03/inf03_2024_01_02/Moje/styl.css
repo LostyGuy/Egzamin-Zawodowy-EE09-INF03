@@ -1,0 +1,56 @@
+body{
+    width: 95%;
+    margin: auto;
+    background-color: #E0F7FA;
+    font-family: Arial;
+    text-align: center;
+}
+
+.baner{
+    background-color: #00838F;
+    height: 200px;
+}
+
+.menu{
+    background-color: #006064;
+    padding: 15px;
+}
+
+.menu a{
+    background-color: #006064;
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    margin: 10px;
+}
+
+.glowny{
+    height: 250px;
+    width: 30%;
+    float: left;
+}
+
+.stopka{
+    background-color: #006064;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    clear: both;
+}
+
+.stopka i{
+    background-color: #006064;
+}
+
+ul{
+    text-align: left;
+}
+
+button{
+    background-color: #00838F;
+    color: white;
+}
+
+button :hover{
+    color: #80DEEA
+}

@@ -827,7 +827,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_01/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        02 (<b>JS</b>) - Pogotowie komputerowe
+        02 (<b>JS</b>) - Pogotowie komputerowe [Zrobione]
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_02">INF.03-02-24.01-SG</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_02/inf_03_2024_01_02_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_02/materialy2.zip">Baza</a> | 

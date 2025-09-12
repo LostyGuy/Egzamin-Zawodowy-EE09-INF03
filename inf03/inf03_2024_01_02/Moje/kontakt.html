@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komputery</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="zdjecia/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <section class="baner">
+        <img src="zdjecia/animacja.gif" alt="Pogotowie komputerowe">
+    </section>
+    <section class="menu">
+        <a href="index.html">Strona Główna</a>
+        <a href="kontakt.html">Kontakt</a>
+    </section>
+
+    <section class="glowny1"></section>
+    <section class="glowny2">
+        <h2>Kontakt</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Imię: </th>
+                    <td><input type="text" id="imie"/></th>
+                </tr>
+                <tr>
+                    <td>Nazwisko: </td>
+                    <td><input type="text" id="nazwisko"/></td>
+                </tr>
+                <tr>
+                    <td>E-mail: </td>
+                    <td><input type="email" id="email"/></td>
+                </tr>
+                <tr>
+                    <td>Zgłoszenie: </td>
+                    <td><select name="" id="lista">
+                        <option value="naprawa komputerów">naprawa komputerów</option>
+                        <option value="odzyskiwanie danych">odzyskiwanie danych</option>
+                        <option value="wirusy">wirusy</option>
+                        <option value="konfiguracja LAN">konfiguracja LAN</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" id="kopia" checked="true"/>Wyślij kopię wiadomości</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="reset">Czyść</button>
+                        <button type="button" onclick="skrypt();">Wyślij</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+        <p id="wynik"></p>
+    </section>
+    <section class="glowny3"></section>
+
+    <section class="stopka">Autor: <i>LostyGuy</i></section>
+
+    <script>
+
+        function skrypt() {
+            let imie = document.getElementById("imie").value;
+            let nazwisko = document.getElementById("nazwisko").value;
+            let email = document.getElementById("email").value.toLowerCase();
+            let zgloszenie = document.getElementById("lista").value;
+            let kopia = document.getElementById("kopia").value;
+            let p = document.getElementById("wynik");
+            p.innerHTML = imie + " " + nazwisko + "<br>" + email + "<br>" + "Usługa: " + zgloszenie;
+            
+        };
+
+    </script>
+</body>
+</html>
