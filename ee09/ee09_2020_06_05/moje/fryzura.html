@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Usługi fryzjerskie</title>
+    <link rel="stylesheet" href="styl2.css">
+</head>
+<body>
+    <section class="lewa" id="l1">
+        <h2><a href="index.html">SALON FRYZJERSKI</a></h2>
+        <img src="zdjecia/obraz2.jpg" alt="Czesanie">
+    </section>
+    
+
+    <section class="prawa" id="p1"><h2>MENU</h2></section>
+    <section class="prawa" id="p2">
+        <ol>
+            <li><a href="fryzura.html">Strzyżenie</a>
+                <ul>
+                    <li>krótkie</li>
+                    <li>średnie</li>
+                    <li>półdługie</li>
+                    <li>długie</li>
+                </ul>
+                
+            </li>
+            <li>Czesanie</li>
+            <li>Koloryzacja</li>
+
+        </ol>
+    </section>
+    <section class="lewa" id="l2">
+            <h3>Dziś promocja na strzyżenie włosów</h3>
+            <input type="radio" name="dlugosc" id="1" value="25">
+            <label for="1">Krótkie</label><br>
+
+            <input type="radio" name="dlugosc" id="2" value="30">
+            <label for="2">Średnie</label><br>
+
+            <input type="radio" name="dlugosc" id="3" value="40">
+            <label for="3">Półdługie</label><br>
+
+            <input type="radio" name="dlugosc" id="4" value="50">
+            <label for="4">Długie</label><br>
+
+            <button onclick="wyslij()">Odkryj promocję</button><br>
+            <p id="wynik"></p>
+    </section>
+    <section class="prawa" id="p3">
+        <img src="zdjecia/obraz1.jpg" alt="Fryzjer">
+    </section>
+
+    <section id="stopka"><p>Autor: 0000000000</p></section>
+    
+</body>
+<script lang="javascript">
+    function wyslij(){
+        let krotkie = document.getElementById('1').checked
+        let srednie = document.getElementById('2').checked
+        let poldlugie = document.getElementById('3').checked
+        let dlugie = document.getElementById('4').checked
+        wyjscie = document.getElementById("wynik")
+        let cena = 0
+        if (krotkie) cena= 25
+        if (srednie) cena = 30
+        if (poldlugie) cena = 40
+        if (dlugie) cena = 50
+        wyjscie.innerHTML="Cena strzyżenia: " + cena
+
+    }
+</script>
+</html>

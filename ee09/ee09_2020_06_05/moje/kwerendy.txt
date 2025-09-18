@@ -1,0 +1,11 @@
+kw1 
+SELECT k.imie, k.nazwisko FROM kadra k WHERE k.stanowisko = "fryzjer" ;
+
+kw2
+SELECT u.rodzaj, COUNT(*) as Ilosc FROM uslugi u GROUP BY u.rodzaj;
+
+kw3
+CREATE USER fryzjer identified by "Fryz12";
+
+kw4
+GRANT CREATE, ALTER ON egzamin2 TO 'fryzjer'@'localhost';
