@@ -421,7 +421,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/ee09/ee09_2020_06_04/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        05 (<b>JS</b>) - Salon fryzjerski / Usługi fryzjerskie
+        05 (<b>JS</b>) - Salon fryzjerski / Usługi fryzjerskie [Zrobione]
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/ee09/ee09_2020_06_05">EE.09-05-20.06-SG</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/ee09/ee09_2020_06_05/ee09_2020_06_05_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/ee09/ee09_2020_06_05/egzamin2.zip">Baza</a> | 
