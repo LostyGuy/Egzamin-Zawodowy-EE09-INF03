@@ -8,6 +8,40 @@ Prosta aplikacja webowa pozwalająca na wyszukiwanie egzaminów po różnych kry
 Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatkowe tagi lub funkcjonalności to zapraszam do kontaktu.
 [Strona z wyszukiwarką](https://chr1skyy.github.io/EgzaminZawodowyINF03-Wyszukiwarka/)
 
+## Ważne -- Do zapamiętania
+ - Tabela HTML
+  <pre>
+    <table>
+      <th>Table Head</th>
+      <td>Table Data</td>
+      <tr>Table Row</tr>
+    </table>
+  </pre>
+
+  - Połączenie z bazą
+  <pre>
+    $conn = mysqli_connect(localhost: serwer,root: użytkownik,"" :hasło,"nazwa_bazy": nazwa_bazy);
+    if $conn {
+      ...;
+    }else{
+      mysqli_error($conn: id_polaczenia);
+    };
+  </pre>
+
+  - Formularz
+  <pre>
+    <form>
+      <input type="text">
+      <input type="password">
+      <input type="radio">
+      <input type="" id="">
+
+      <label for="__input_id"></label>
+      <label for=""></label>
+    
+    </form>
+  </pre>
+
 ### Kontakt
 - **Discord:** Chriskyy
 
