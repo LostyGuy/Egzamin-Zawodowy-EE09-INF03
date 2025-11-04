@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Biuro turystyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h1>Zwiedzamy Polskę</h1>
+    </header>
+    <main>
+        <section class="left">
+            <button onclick="previous_image()" id="prev"><</button>
+        </section>
+        <section class="middle">
+            <img src="1.jpg" alt="Aktywne zdjęcie" id="active">
+        </section>
+        <section class="right">
+            <button onclick="next_image()" id="next">></button>
+        </section>
+        <section class="banner">
+            <img src="1.jpg" alt="Gdańsk">
+            <img src="2.jpg" alt="Kraków">
+            <img src="3.jpg" alt="Niedzica">
+            <img src="4.jpg" alt="Pieniny">
+            <img src="5.jpg" alt="Szklarska Poręba">
+            <img src="6.jpg" alt="Tatry">
+            <img src="7.jpg" alt="Wrocław">
+        </section>
+    </main>
+    <footer>
+        <h3>Autorem galerii jest:</h3>
+        <br>
+        <p>LostyGuy</p>
+        <br>
+        <a href="http://pixabay.com" target="_blank">Więcej zdjęć</a>
+    </footer>
+
+    <script>
+        const img_array = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"];
+
+        function next_image() {
+            let current_image = document.getElementById("active");
+            if (current_image.getAttribute("src") == img_array[0]) {
+                current_image.setAttribute("src","2.jpg");
+            }else if(current_image.getAttribute("src") == img_array[1]) {
+                current_image.setAttribute("src","3.jpg");
+            }else if(current_image.getAttribute("src") == img_array[2]) {
+                current_image.setAttribute("src","4.jpg");
+            }else if(current_image.getAttribute("src") == img_array[3]) {
+                current_image.setAttribute("src","5.jpg");
+            }else if(current_image.getAttribute("src") == img_array[4]) {
+                current_image.setAttribute("src","6.jpg");
+            }else if(current_image.getAttribute("src") == img_array[5]) {
+                current_image.setAttribute("src","7.jpg");
+            }else if(current_image.getAttribute("src") == img_array[6]) {
+                current_image.setAttribute("src","1.jpg");
+            }
+        }
+        function previous_image() {
+            let current_image = document.getElementById("active");
+            if (current_image.getAttribute("src") == img_array[0]) {
+                current_image.setAttribute("src","7.jpg");
+            }else if(current_image.getAttribute("src") == img_array[1]) {
+                current_image.setAttribute("src","1.jpg");
+            }else if(current_image.getAttribute("src") == img_array[2]) {
+                current_image.setAttribute("src","2.jpg");
+            }else if(current_image.getAttribute("src") == img_array[3]) {
+                current_image.setAttribute("src","3.jpg");
+            }else if(current_image.getAttribute("src") == img_array[4]) {
+                current_image.setAttribute("src","4.jpg");
+            }else if(current_image.getAttribute("src") == img_array[5]) {
+                current_image.setAttribute("src","5.jpg");
+            }else if(current_image.getAttribute("src") == img_array[6]) {
+                current_image.setAttribute("src","6.jpg");
+            }
+        }
+    </script>
+</body>  
+</html>

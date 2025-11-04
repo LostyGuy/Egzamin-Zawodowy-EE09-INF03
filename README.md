@@ -969,7 +969,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_06_08/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        09 (<b>JS</b>) - Zwiedzamy Polskę / Biuro turystyczne
+        09 (<b>JS</b>) - Zwiedzamy Polskę / Biuro turystyczne [Zrobione]
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_06_09">INF.03-09-24.06-SG</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_06_09/inf_03_2024_06_09_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_06_09/pliki9.zip">Baza</a> | 

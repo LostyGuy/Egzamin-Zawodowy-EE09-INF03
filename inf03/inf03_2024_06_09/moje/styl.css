@@ -1,0 +1,97 @@
+* {
+
+    font-family: Georgia;
+    color: white;
+    margin: 0;
+}
+
+header, footer {
+
+    background-color: Maroon;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2px;
+}
+
+header {
+
+    padding: 20px;
+}
+
+.left, .middle, .right {
+
+    display: block;
+    float: left;
+    background-color: LightSalmon;
+    height: 527px;
+}
+
+.left, .right {
+
+    width: 15%;
+}
+
+.middle {
+
+    width: 70%;
+}
+
+.banner {
+
+    background-color: Maroon;
+    height: 70px;
+    float: left;
+    width: 100%;
+}
+
+#prev, #next {
+
+    background-color: LightSalmon;
+    color: Maroon;
+    border: none;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+}
+
+@keyframes anim1 {
+
+    from {padding-left: 50px;}
+    to {padding-left: 0px;}
+}
+
+@keyframes anim2 {
+
+    from {scale: 100%;}
+    to {scale: 120%;}
+    
+}
+
+.banner > img {
+
+    height: 70px;
+    animation-name: anim1;
+    animation-duration: 4s;
+}
+
+.middle > img {
+
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.middle > img :hover {
+
+    animation-name: anim2;
+    animation-duration: 5s;
+    scale: 120%;
+}
+
+footer {
+
+    clear: both;
+    padding-top: 10px;
+}
