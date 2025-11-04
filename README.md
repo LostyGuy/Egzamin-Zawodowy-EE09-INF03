@@ -331,7 +331,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
 
 ## EE.09
 
-<details open>
+<details>
 <summary><b>2019</b></summary>
 <ul>
   <li><b>Czerwiec</b>
@@ -877,7 +877,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_04/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        05 (<b>JS</b>) - Usługi kosmetyczne / Salon kosmetyczny
+        05 (<b>JS</b>) - Usługi kosmetyczne / Salon kosmetyczny []
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_05">INF.03-05-24.01-SG</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_05/inf_03_2024_01_05_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2024_01_05/materialy5.zip">Baza</a> | 

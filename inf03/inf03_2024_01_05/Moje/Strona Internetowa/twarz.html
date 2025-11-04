@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon kosmetyczny</title>
+    <link rel="stylesheet" href="styl7.css">
+</head>
+<body>
+    <section class="upper_left">
+        <h2>Nasza oferta</h2>
+        <br>
+        <ol>
+            <li><a href="twarz.html">Oczyszczanie twarzy</a></li>
+                <ul>Peeling</ul>
+                <ul>Maska</ul>
+            <li>Masaż</li>
+            <li>Makijaż</li>
+        </ol>
+        <br>
+        <a href="index.html" id="homepage">Strona główna</a>
+    </section>
+    <section class="upper_right">
+        <h1>Usługi kosmetyczne</h1>
+    </section>
+
+    <section class="bottom_right">
+        <h3>Kalkulator ceny wizyty</h3>
+
+        <input type="checkbox" id="peeling">
+        <label for="1">Peeling</label><br>
+
+        <input type="checkbox" id="maska">
+        <label for="2">Maska</label><br>
+
+        <input type="checkbox" id="masaz">
+        <label for="3">Masaż twarzy</label><br>
+
+        <input type="checkbox" id="makijaz">
+        <label for="4">Makijaż</label><br>
+
+
+        <button type="button" onclick="calculate()">Oblicz cenę</button>
+
+        <p id="result"></p>
+
+        <script>
+            
+            function calculate() {
+
+                let overall_value = 0;
+
+                if (peeling.checked) {
+                    overall_value += 45;
+                }
+                if (maska.checked) {
+                    overall_value += 30;
+                }
+                if (masaz.checked) {
+                    overall_value += 20;
+                }
+                if (makijaz.checked) {
+                    overall_value += 50;
+                }
+                result.innerHTML = "Cena zabiegów: " + overall_value;
+            }
+        </script>
+    </section>
+    <section class="bottom_left">
+        <img src="obraz1.jpg" alt="Personel">
+    </section>
+
+    <section class="footer">
+        <p>Autor: LostyGuy</p>
+    </section>
+
+</body>
+</html>
