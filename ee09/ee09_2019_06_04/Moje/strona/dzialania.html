@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Działania matematyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <section id="baner1">
+            <img src="logo.jpg" alt="matematyka">
+        </section>
+        <section id="baner2">
+            <h1>Pomocnik Matematyczny</h1>
+        </section>
+        <section id="baner3">
+            <a href="dzialania.html">
+                <h4>Działania</h4>
+            </a>
+        </section>
+        <section id="baner4">
+            <a href="mnozenie.html">
+                <h4>Tabliczna mnożenia</h4>
+            </a>
+        </section>
+    </header>
+    <main>
+        <section id="lewy">
+            <h3>Proste działania</h3>
+            <label for="liczbaA">liczba A: </label>
+            <input type="number" id="liczbaA">
+            <br>
+            <label for="liczbab">liczba B: </label>
+            <input type="number" id="liczbaB">
+            <br>
+            <button onclick="dodawanie()">+</button>
+            <button onclick="odejmowanie()">-</button>
+            <button onclick="mnozenie()">*</button>
+            <button onclick="dzielenie()">/</button>
+            <button onclick="potegowanie()">A^B</button>
+            <p id="wynik"></p>
+        </section>
+        <section id="prawy">
+            <ul>
+                <li>dodawania</li>
+                <li>odejmowanie</li>
+                <li>mnożenie</li>
+                <li>dzielenie</li>
+                <li>potęgowanie</li>
+            </ul>
+    </main>
+    <footer><p>Autor: LostyGuy</p></footer>
+    <script lang="javascript">
+
+        function dodawanie() {
+            a = document.getElementById("liczbaA").value;
+            b = document.getElementById("liczbaB").value;
+            p = document.getElementById("wynik");
+
+            wynik = parseInt(a) + parseInt(b)
+
+            p.innerHTML = "Wynik: " + wynik;
+        }
+
+        function odejmowanie() {
+            a = document.getElementById("liczbaA").value;
+            b = document.getElementById("liczbaB").value;
+            p = document.getElementById("wynik");
+
+            wynik = a - b
+
+            p.innerHTML = "Wynik: " + wynik;
+        }
+
+        function mnozenie() {
+            a = document.getElementById("liczbaA").value;
+            b = document.getElementById("liczbaB").value;
+            p = document.getElementById("wynik");
+
+            wynik = a * b
+
+            p.innerHTML = "Wynik: " + wynik;
+        }
+
+        function dzielenie() {
+            a = document.getElementById("liczbaA").value;
+            b = document.getElementById("liczbaB").value;
+            p = document.getElementById("wynik");
+
+            wynik = a / b
+
+            p.innerHTML = "Wynik: " + wynik;
+        }
+
+        function potegowanie() {
+            a = document.getElementById("liczbaA").value;
+            b = document.getElementById("liczbaB").value;
+            p = document.getElementById("wynik");
+
+            wynik = a ** b
+
+            p.innerHTML = "Wynik: " + wynik;
+        }
+
+    </script>
+</body>
+</html>

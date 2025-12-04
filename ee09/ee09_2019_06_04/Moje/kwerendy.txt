@@ -1,0 +1,11 @@
+kw1 - SELECT m.imie, m.nazwisko from matematycy as m where m.rok_urodzenia > 1700;
+
+kw2 - SELECT m.id, m.nazwisko from matematycy as m where m.liczba_publikacji > 10 AND m.liczba_publikacji < 30;
+
+kw3 - SELECT sum(m.liczba_publikacji) as `liczba_publikacji` from matematycy as m where m.rok_urodzenia > 1750;
+
+kw4 - CREATE TABLE `arytmetyka`.`publikacje` (
+    `id` INT NOT NULL AUTO_INCREMENT , 
+    `tytul` TEXT NOT NULL , 
+    `rok` INT NOT NULL , 
+    PRIMARY KEY (`id`));
