@@ -1,0 +1,7 @@
+kw1 - SELECT w.id, w.dataWyjazdu, w.cel, w.cena FROM wycieczki as w WHERE w.dostepna = "1";
+
+kw2 - SELECT z.nazwaPliku, z.podpis FROM zdjecia as z ORDER BY z.podpis DESC;
+
+kw3 - SELECT w.cel, w.cena, z.podpis FROM wycieczki as w JOIN zdjecia as z ON z.id = w.zdjecia_id;
+
+kw4 - ALTER TABLE `wycieczki` ADD `liczbaDni` INT AFTER `dostepna`;
