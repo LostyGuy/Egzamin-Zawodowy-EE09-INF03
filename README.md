@@ -799,7 +799,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_04/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        05 (<b>PHP</b>) - Organizer: Sierpnień / Sierpniowy kalendarz
+        05 (<b>PHP</b>) - Organizer: Sierpnień / Sierpniowy kalendarz [Zrobione]
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_05">INF.03-05-23.01-SG</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_05/inf_03_2023_01_05_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_05/zad5.zip">Baza</a> | 

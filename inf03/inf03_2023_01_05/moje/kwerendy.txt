@@ -1,0 +1,7 @@
+kw1 - SELECT z.dataZadania, z.wpis FROM zadania as z WHERE z.miesiac = "sierpien";
+
+kw2 - SELECT z.miesiac, z.rok FROM zadania as z WHERE z.dataZadania = "2020-08-07";
+
+kw3 - SELECT z.miesiac, COUNT(z.wpis) as "Zaczyna się od Weterynarz" FROM zadania as z WHERE wpis LIKE "Weterynarz%" GROUP BY z.miesiac;
+
+kw4 - UPDATE zadania AS z SET z.wpis = "Wycieczka: Zalew Mietkowski" WHERE z.dataZadania = "2020-08-09";

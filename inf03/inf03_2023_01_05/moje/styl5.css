@@ -1,0 +1,47 @@
+* {
+    font-family: Tahoma;
+}
+
+.baner {
+    background-color: #7DA453;
+    color: white;
+    height: 120px;
+    float: left;
+}
+
+#lewy, #srodek {
+    width: 40%;
+}
+
+#prawy {
+    width: 20%;
+}
+
+.blok_kalendarza {
+    background-color: #AED581;
+    width: 200px;
+    height: 100px;
+    margin: 7px;
+    border: 1px solid #7DA453;
+    float: left;
+}
+
+.blok_kalendarza:hover {
+    background-color: #7DA453;
+    color: white;
+}
+
+.stopka {
+    background-color: #7DA453;
+    color: white;
+    padding: 5px;
+    clear: both;
+}
+
+h5 {
+    text-align: center;
+}
+
+form {
+    padding-top: 50px;
+}
