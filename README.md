@@ -811,7 +811,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
   <li><b>Czerwiec</b> - podobne do sesji e14_2019_06 (12 arkuszy - 4 różne)
     <ul>
       <li>
-        01 (<b>PHP</b>) - Dzisiejsze promocje naszego sklepu dla uczniów
+        01 (<b>PHP</b>) - Dzisiejsze promocje naszego sklepu dla uczniów [Zrobione]
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_01">INF.03-01-23.06</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_01/inf_03_2023_06_01_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_01/materialy1.7z">Baza</a> | 
