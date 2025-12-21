@@ -791,7 +791,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_03/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        04 (<b>PHP</b>) - Biuro turystyczne / Wycieczki po Europie
+        04 (<b>PHP</b>) - Biuro turystyczne / Wycieczki po Europie [Zrobione]
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_04">INF.03-04-23.01-SG</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_04/inf_03_2023_01_04_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_01_04/zad4.zip">Baza</a> | 
