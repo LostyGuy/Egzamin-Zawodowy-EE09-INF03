@@ -819,7 +819,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_01/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        02 (<b>PHP</b>) - Hurtownia szkolna z najlepszymi cenami
+        02 (<b>PHP</b>) - Hurtownia szkolna z najlepszymi cenami []
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_02">INF.03-02-23.06</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_02/inf_03_2023_06_02_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_02/materialy2.7z">Baza</a> | 
