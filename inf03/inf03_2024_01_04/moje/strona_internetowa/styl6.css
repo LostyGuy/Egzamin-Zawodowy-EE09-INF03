@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    background-color: #6F79A8;
+    color: white;
+    height: 140px;
+    float: left;
+}
+
+#left {
+    width: 30%;
+}
+
+#right {
+    width: 70%;
+}
+
+.call_block {
+    background-color: #9FA8DA;
+    width: 160px;
+    height: 85px;
+    margin: 5px;
+    border: solid 1px #6F79A8;
+    overflow: hidden;
+    float: left;
+}
+
+.call_block:hover {
+    background-color: #6F79A8;
+    color: white;
+}
+
+.footer {
+    background-color: #6F79A8;
+    color: white;
+    padding: 5px;
+    text-align: right;
+    clear: both;
+}
+
+h6 {
+    text-align: center;
+}

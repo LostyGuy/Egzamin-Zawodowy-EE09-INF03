@@ -1,0 +1,7 @@
+kw1 - SELECT DISTINCT z.wpis FROM zadania AS z WHERE z.dataZadania > '2020-07-01' AND z.dataZadania < '2020-07-08' AND z.wpis != '';
+
+kw2 - SELECT z.dataZadania, z.wpis FROM zadania AS z WHERE z.dataZadania LIKE '____-07-__';
+
+kw3 - SELECT z.miesiac, z.wpis FROM zadania AS z WHERE z.wpis LIKE 'S%';
+
+kw4 - UPDATE `zadania` AS z SET `wpis`='Wycieczka nad morze' WHERE z.dataZadania = '2020-07-18';
