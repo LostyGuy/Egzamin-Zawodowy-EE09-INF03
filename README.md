@@ -835,7 +835,7 @@ Arkusze są ocenione według mojego uznania. Jeśli ktoś ma pomysły na dodatko
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_04/rozwiazanie.zip">RozwiązanieZIP</a>
       </li>
       <li>
-        07 (<b>PHP</b>) - Biblioteka w Książkowicach Małych 
+        07 (<b>PHP</b>) - Biblioteka w Książkowicach Małych [Zrobione]
         [<a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_07">INF.03-07-23.06</a>]<br>
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_07/inf_03_2023_06_07_SG.pdf">Arkusz</a> | 
         <a href="https://github.com/Chr1skyy/Egzamin-Zawodowy-E14-EE09-INF03/tree/main/inf03/inf03_2023_06_07/materialy7.7z">Baza</a> | 
